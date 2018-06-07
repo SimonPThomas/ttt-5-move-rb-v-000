@@ -13,4 +13,3 @@ index = input.to_i
 input_to_index(index)
 
 move(board,index,character = "X")
-puts display_board(board)
