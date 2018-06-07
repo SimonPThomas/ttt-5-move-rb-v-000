@@ -13,4 +13,5 @@ end
 
 def move (board, input_to_index, character = "X")
   puts "#{board[0]='X'}"
+  puts "#{board[4]='O'}"
 end
