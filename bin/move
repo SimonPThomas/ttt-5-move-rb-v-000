@@ -13,4 +13,4 @@ def index(input)
   index = input.to_i
 end
 
-puts display_board
+puts display_board(board)
