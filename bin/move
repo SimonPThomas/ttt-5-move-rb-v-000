@@ -9,8 +9,8 @@ puts "Welcome to Tic Tac Toe!"
 puts "Where Would You Like To Go?"
 
 input = gets.strip
-def index(input)
-  user_input = input.to_i
-end
+index(input)
+  user_input = index.to_i
+
 
 puts display_board(board)
