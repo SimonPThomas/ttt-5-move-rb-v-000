@@ -9,6 +9,8 @@ puts "1 for top left, 9 for bottom right"
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-user_input = gets.chomp.to_i
+input = gets.strip
+
+index = input.to_i
 
 input_to_index(user_input)
