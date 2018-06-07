@@ -8,8 +8,8 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Welcome to Tic Tac Toe!"
 puts "Where Would You Like To Go?"
 
-input = gets.strip
-index = input.to_i
+input_to_index = gets.strip
+index = input_to_index.to_i
 
 def move (board,index,character = "X")
 puts input_to_index
