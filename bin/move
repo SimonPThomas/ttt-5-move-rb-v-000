@@ -5,5 +5,5 @@ require_relative '../lib/move.rb'
 # Code your CLI Here
 puts "Please enter "1-9" for your move"
 
-user_input = gets.to_i
-input_to_index (user_input)
+input_to_index = gets.to_i
+user_input (input_to_index)
