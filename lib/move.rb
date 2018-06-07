@@ -15,5 +15,3 @@ end
 def move (board, input_to_index, character = "X")
 end
 
-def update_array(board, input_to_index, value)
-end
