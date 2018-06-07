@@ -4,7 +4,7 @@ require_relative '../lib/move.rb'
 
 # Code your CLI Here
 puts "Wanna play a game of Tic Tac Toe?"
-puts "Please enter "1-9" for your move"
+puts "Please enter "'1-9'" for your move"
 puts "1 for top left, 9 for bottom right"
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
