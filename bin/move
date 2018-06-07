@@ -7,5 +7,7 @@ puts "Wanna play a game of Tic Tac Toe?"
 puts "Please enter "1-9" for your move"
 puts "1 for top left, 9 for bottom right"
 
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
 user_input = gets.chomp.to_i
 input_to_index(user_input)
