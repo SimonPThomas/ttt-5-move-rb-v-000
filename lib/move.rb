@@ -7,6 +7,8 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
+user_input = gets.chomp.to_i
+input_to_index(user_input)
 
 def input_to_index (user_input)
    converted_input = ('user_input - 1')
