@@ -9,5 +9,5 @@ end
 # code your input_to_index and move method here!
  input_to_index (user_input)
 
- converted_input = input_to_index ('user_input - 1')
+ converted_input = ('user_input - 1')
  puts converted_input
