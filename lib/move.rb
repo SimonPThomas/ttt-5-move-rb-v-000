@@ -20,4 +20,5 @@ end
 def move (board, input_to_index, character = "X")
 end
 
-  move(board, 0, "X")
+def  move (board, 0, "X")
+end
