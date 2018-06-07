@@ -12,4 +12,5 @@ def input_to_index (user_input)
 end
 
 def move (board, input_to_index, character = "X")
+  puts "#{board[0]='X'}"
 end
