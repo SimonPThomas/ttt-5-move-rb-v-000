@@ -13,5 +13,4 @@ end
 
 def move (board, input_to_index, character = "X")
 
-puts update_array_at_with(board, 0, "X")
 end
