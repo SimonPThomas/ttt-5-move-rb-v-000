@@ -11,7 +11,7 @@ puts "Where Would You Like To Go?"
 input = gets.strip
 index = input.to_i
 
-def move (board,index,"X")
+def move (board,index,character = "X")
 
 puts display_board(board)
 end
