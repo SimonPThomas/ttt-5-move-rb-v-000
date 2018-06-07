@@ -14,3 +14,4 @@ input_to_index(index)
 
 move(board,input_to_index,character = "X")
 
+puts display_board(board)
