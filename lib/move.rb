@@ -16,5 +16,5 @@ def move (board, input_to_index, character = "X")
 end
 
 def update_array(board, input_to_index, value)
-  puts (board,0,"X")
+  puts "#{board,0,"X"}"
 end
