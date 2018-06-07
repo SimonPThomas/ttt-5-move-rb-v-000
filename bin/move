@@ -13,5 +13,6 @@ index = input.to_i
 input_to_index(index)
 
 move(board,input_to_index,character = "X")
-
+def move
+end
 puts display_board(board)
