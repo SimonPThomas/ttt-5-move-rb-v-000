@@ -8,10 +8,9 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Welcome to Tic Tac Toe!"
 puts "Where Would You Like To Go?"
 
-input = gets.strip
-index= input.to_i
+user_input = gets.strip
+input_to_index = user_input.to_i
 
-def  user_input(index)
-end
+
 
 puts display_board(board)
