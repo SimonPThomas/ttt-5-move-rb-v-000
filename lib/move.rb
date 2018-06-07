@@ -16,7 +16,8 @@ end
 
 def update_array_at_with(array, index, value)
   array[index] = value
- update_array_at_with(board, 0, "X")
- update_array_at_with(board, 4, "O")
+  
+ puts update_array_at_with(board, 0, "X")
+ puts update_array_at_with(board, 4, "O")
 
 end
