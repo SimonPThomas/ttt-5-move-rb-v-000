@@ -10,8 +10,9 @@ end
 
 def  input_to_index (user_input)
 
-converted_input = 'user_input - 1'
+user_input - 1
 
-puts "#{converted_input}"
-
+end
+def converted_input (input_to_index)
+  puts "#{converted_input}"
 end
