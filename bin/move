@@ -12,5 +12,5 @@ input = gets.strip
 index = input.to_i
 input_to_index(index)
 
- def move(board,input_to_index,character = "X")
-end
+move(board,input_to_index,character = "X")
+
