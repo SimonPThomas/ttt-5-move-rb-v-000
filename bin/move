@@ -10,7 +10,7 @@ puts "Where Would You Like To Go?"
 
 input = gets.strip
 def index(input)
-  index = input.to_i
+  user_input = input.to_i
 end
 
 puts display_board(board)
