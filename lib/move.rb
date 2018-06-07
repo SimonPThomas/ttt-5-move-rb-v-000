@@ -15,7 +15,7 @@ end
 def move (board, input_to_index, character = "X")
  end
  def update_array_at_with(board, input_to_index, character = "X")
-  board[input_to_index] = value
+  board[input_to_index] = "X"
 end
 
 
